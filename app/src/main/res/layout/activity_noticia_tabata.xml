@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticiaTabata">
+
+    <ImageView
+        android:id="@+id/imgVoltarTabata"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/voltar" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="390dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgVoltarTabata"
+        app:srcCompat="@drawable/tabatapablo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="356dp"
+        android:layout_marginTop="52dp"
+        android:text="Tabata afirmou que Marçal pode falar as &quot;sujeiras e mentiras&quot; que quiser, que ela e os eleitores não dão importância. &quot;Eu não tenho nenhum problema com as merdas que o Pablo Marçal fala todos os dias, inclusive com as sujeiras e mentiras que ele fala sobre mim, sobre a morte do meu pai, sobre a minha família e toda a baixaria que ele faz com maestria. Pode falar o que for, a população é inteligente e vai fazer a melhor escolha no final dessa eleição.&quot;  O problema de Marçal, diz ela, é o suposto financiamento ilegal de campanha — que Tabata suspeita estar ligado ao crime, sem apresentar provas. &quot;O que ele não pode e o que eu não vou tolerar é ficar trazendo dinheiro que ninguém sabe…"
+        android:textColor="#131313"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

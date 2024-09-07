@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticiaMarcal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="395dp"
+        android:layout_marginTop="20dp"
+        android:text="O Tribunal Regional Eleitoral de São Paulo (TRE-SP) negou o pedido do candidato à Prefeitura da capital paulista, Pablo Marçal (PRTB), para que os seus perfis nas redes sociais fossem reativados. O indeferimento foi publicado na manhã desta quarta-feira (28).  Os perfis foram derrubados no último sábado (24), depois que a Justiça entendeu que há indícios de abuso econômico ao promover cortes monetizados de seus vídeos. Logo após a decisão, Marçal falou em censura e entrou com recurso.    O desembargador Claudio Langroiva Pereira negou o pedido e afirmou que &quot;as ações judiciais voltadas a garantir parâmetros democráticos de igualdade, integridade e equilíbrio do processo eleitoral não se constituem em exercício de censura, nem de afrontas a direito fundamental.&quot;   Na decisão de sábado, o juiz eleitoral Antonio Maria Patiño Zorz afirmou que &quot;há indicativos que haja uma transposição de limites na conduta do requerido Pablo, no que respeita ao seu comportamento nitidamente comissivo de requerer, propagar e desafiar seguidores, curiosos, aventureiros, etc a disseminar sua imagem e dizeres por meio dos chamados 'cortes'&quot;."
+        android:textColor="#090909"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="412dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgVoltarMarcal"
+        app:srcCompat="@drawable/marcalnot" />
+
+    <ImageView
+        android:id="@+id/imgVoltarMarcal"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/voltar"
+        tools:layout_editor_absoluteX="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
